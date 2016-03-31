@@ -1,0 +1,16 @@
+/*
+ *= require_self
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700,100,300italic);
+@import url(https://fonts.googleapis.com/css?family=Passion+One:400,700,900|Pacifico|Amatic+SC:400,700|Bangers|Righteous|Comfortaa:400,300,700|Coming+Soon);
+
+
+font-family: 'Lato', sans-serif;
+font-family: 'Passion One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Coming Soon', cursive;
