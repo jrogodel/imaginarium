@@ -5,4 +5,9 @@
 		= post.comments.count 
 		Comments
 		
+	%p
+		= post.get_likes.size
+		Likes
+		= post.get_dislikes.size
+		Dislikes
 = link_to "Add new idea", new_post_path
