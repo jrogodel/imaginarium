@@ -1,3 +1,15 @@
+- if user_signed_in?
+	%p.greeting 
+		Hello
+		= current_user.name
+		%br
+		%span.greeting.subtitle
+			Share your thoughts and inspirations.
+- else
+	%p.greeting.signed-out
+		"Whats on your mind?"
+
+
 - @posts.each do |post|
 	= image_tag(post.image.url(:small))
 	%h2= link_to post.title, post
